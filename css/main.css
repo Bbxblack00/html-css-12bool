@@ -1,0 +1,23 @@
+[class*="col-"]{
+  min-height: 200px;
+  background-color: pink;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+[class*="col-offset-"]{
+  min-height: 200px;
+  background-color: none;
+  border: none;
+}
+
+p{
+  line-height: 200px;
+  text-align: center;
+}
+
+[class*="col-"] > [class*="col-"]{
+  max-height: 180px;
+  background-color: violet;
+  border: 1px solid white;
+}
